@@ -9,26 +9,25 @@ Technology Used:
 * Dynamixel SDK Library
 
 
-##
 
-The CRANE-X7 by RT CORPORATION.
+## The CRANE-X7 by RT CORPORATION.
 ![Crane-X7](img/AndrewPang-FrontierSummerLab2018-CraneX7.jpeg)
 
 The Goal:
 
-Replace the NVIDIA Jetson TX2 with OpenCR.
+Replace the NVIDIA Jetson TX2 with OpenCR:
 ![Jetson TX2](img/AndrewPang-FrontierSummerLab2018-JetsonTX2.jpeg)
 
 ![OpenCR](img/AndrewPang-FrontierSummerLab2018-OpenCR.jpeg)
 
-Thus reducing the over system from this:
+Thus reducing the overall system from this:
 ![CraneX7 to Jetson](img/AndrewPang-FrontierSummerLab2018-CraneX7&Jetson-SETUP.jpeg)
 
 to this:
 ![CraneX7 to OpenCR](img/AndrewPang-FrontierSummerLab2018-CraneX7&OpenCR-SETUP.jpeg)
 
-OpenCR also comes with many built-in features like buttons, leds, and IMU.
-Here I built a fun IMU program that demonstrates the new features made possible thanks to the OpenCR.
+OpenCR also comes with many built-in features like IMU, buttons, and LEDs.
+Here I built a fun program that demonstrates the new features made possible thanks to the OpenCR. The IMU allowed me to control the arm, the buttons allowed me to open/close the gripper, and the on-board LEDs displayed important notifications.
 
 ![Karaage in Cup](img/AndrewPang-FrontierSummerLab2018-IMU-Karaage-in-Cup-Demo.mov)
 
@@ -57,5 +56,6 @@ Two joint:
 ![Two Joint Movement](img/TwoJointMovement.jpeg)
 ![Two Joint Movement Gif](img/TwoJointMovement.gif)
 
-
+Here is the full process from start to end:
+![Full Process](img/AndrewPang-FrontierSummerLab2018-Full-Process-480p.mov)
 
