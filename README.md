@@ -68,5 +68,5 @@ How XYZ Axis is defined:
 
 ### Here is the full process from start to end:
 
-![Full Process](img/AndrewPang-FrontierSummerLab2018-Full-Process-480p.mov)
+[Full Process](https://youtu.be/QUyVY2ucuZY)
 
