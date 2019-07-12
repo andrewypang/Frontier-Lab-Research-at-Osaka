@@ -1,4 +1,4 @@
-# OpenCR-CraneX7
+# Frontier Lab Research at Osaka, Japan
 
 Upon my arrival at the Hosoda Laboratory in Osaka Univerity, Japan, I was introduced to a seven-degrees-of-freedom robotic arm called the Crane-X7. However, the current system to power and run the robotic arm was physically too big, its software requirements too strict, and requires too many adapters. My Goal at Hosoda Laboratory was to explore new ways to reduce the current system(The NVIDIA Jetson TX2) requirements for something more lightweight and portable, and create new features for future implementations. In the end, I was able to provide an alternative way to power and run the Crane-X7 by swapping the more desktop orientated Jetson TX2 with a more portable, more cost effective, all-in-one microcontroller called the OpenCR.
 
@@ -45,9 +45,9 @@ How XYZ Axis is defined:
 ### Here are some technical stuff about the program:
 
 The Flow Chart:
-![Flow Chart](img/IMU-Progran-FlowChart.jpg);
+![Flow Chart](img/IMU-Progran-FlowChart.jpg)
 
-My program was limited to two joints. This severely limited its movement range but simplified the gripper kinematics.
+I limited my program to two joints to simplify the gripper kinematics but it severely restricted its movement range. Expanding it beyond two joints can be a future addition.
 
 One joint:
 ![One Joint Movement](img/OneJointMovement.jpeg)
