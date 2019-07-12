@@ -26,6 +26,7 @@ to this:
 
 ![CraneX7 to OpenCR](img/AndrewPang-FrontierSummerLab2018-CraneX7&OpenCR-SETUP.jpeg)
 
+
 OpenCR also comes with many built-in features like IMU, buttons, and LEDs.
 I built a fun program that demonstrates the new features made possible thanks to the OpenCR. The IMU allowed me to control the arm, the buttons allowed me to open/close the gripper, and the on-board LEDs displayed important notifications.
 
