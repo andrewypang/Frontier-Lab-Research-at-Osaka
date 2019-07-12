@@ -58,7 +58,8 @@ Two joint:
 ![Two Joint Movement](img/TwoJointMovement.jpeg)
 ![Two Joint Movement Gif](img/TwoJointMovement.gif)
 
-Here is the full process from start to end:
+
+### Here is the full process from start to end:
 
 ![Full Process](img/AndrewPang-FrontierSummerLab2018-Full-Process-480p.mov)
 
