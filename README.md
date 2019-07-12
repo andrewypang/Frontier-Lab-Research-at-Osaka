@@ -32,6 +32,10 @@ I built a fun program that demonstrates the new features made possible thanks to
 
 ![Karaage in Cup](img/AndrewPang-FrontierSummerLab2018-IMU-Karaage-in-Cup-Demo.mov)
 
+<video width="320" height="240" controls>
+  <source src="img/AndrewPang-FrontierSummerLab2018-IMU-Karaage-in-Cup-Demo.mov" type="video/mp4">
+</video>
+
 ![Pouring a Drink](img/AndrewPang-FrontierSummerLab2018-IMU-Drink-Demo.mov)
 
 ![XYZ Axis Demo](img/AndrewPang-FrontierSummerLab2018-IMU-XYZ-Axis-Demo.mov)
