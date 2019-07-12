@@ -1,8 +1,6 @@
 # OpenCR-CraneX7
 
-  Upon my arrival at the Hosoda Laboratory in Osaka Univerity, Japan, I was introduced to a seven degrees of freedom robotic arm called the Crane-X7. However, new to the laboratory is a new microcontroller called the OpenCR. My task in the 10 weeks at Osaka University, is to establish a connection between the two. Previous students have developed the arm on a separate system, the NVIDIA Jetson TX2. The Jetson is a supercomputer that runs on Ubuntu 16.04. While it is more than capable to power the robotic arm, it is physically too big, its software requirements are too strict, and requires too many adapters[Fig 1].The physical cord connection is greatly simplified when considering the OpenCR[Fig 2].
-  
-  I have attempted to make communication between the board and the arm using several methods including ROS, ROSSerial, and robotic simulators like gazebo. All turned out to be overly complicated for a simple task of creating a communication. Eventually, I settled on using the Dynamixel SDK library in the Arduino IDE.
+Upon my arrival at the Hosoda Laboratory in Osaka Univerity, Japan, I was introduced to a seven-degrees-of-freedom robotic arm called the Crane-X7. However, the current system to power and run the robotic arm was physically too big, its software requirements too strict, and requires too many adapters. My Goal at Hosoda Laboratory was to explore new ways to reduce the current system(The NVIDIA Jetson TX2) requirements for something more lightweight and portable, and create new features for future implementations. In the end, I was able to provide an alternative way to power and run the Crane-X7 by swapping the more desktop orientated Jetson TX2 with a more portable, more cost effective, all-in-one microcontroller called the OpenCR. Check out some of the things I did.
 
 Technology Used:
 * OpenCR
@@ -11,4 +9,53 @@ Technology Used:
 * Dynamixel SDK Library
 
 
-## Videos
+##
+
+The CRANE-X7 by RT CORPORATION.
+![Crane-X7](img/AndrewPang-FrontierSummerLab2018-CraneX7.jpeg)
+
+The Goal:
+
+Replace the NVIDIA Jetson TX2 with OpenCR.
+![Jetson TX2](img/AndrewPang-FrontierSummerLab2018-JetsonTX2.jpeg)
+
+![OpenCR](img/AndrewPang-FrontierSummerLab2018-OpenCR.jpeg)
+
+Thus reducing the over system from this:
+![CraneX7 to Jetson](img/AndrewPang-FrontierSummerLab2018-CraneX7&Jetson-SETUP.jpeg)
+
+to this:
+![CraneX7 to OpenCR](img/AndrewPang-FrontierSummerLab2018-CraneX7&OpenCR-SETUP.jpeg)
+
+OpenCR also comes with many built-in features like buttons, leds, and IMU.
+Here I built a fun IMU program that demonstrates the new features made possible thanks to the OpenCR.
+
+![Karaage in Cup](img/AndrewPang-FrontierSummerLab2018-IMU-Karaage-in-Cup-Demo.mov)
+
+
+![Pouring a Drink](img/AndrewPang-FrontierSummerLab2018-IMU-Drink-Demo.mov)
+
+
+![XYZ Axis Demo](img/AndrewPang-FrontierSummerLab2018-IMU-XYZ-Axis-Demo.mov)
+
+How XYZ Axis is defined: 
+![XYZ Axis Def](AndrewPang-FrontierSummerLab2018-OpenCR-IMU.jpg)
+
+
+Here are some technical stuff about the program:
+
+The Flow Chart:
+![Flow Chart](img/IMU-Progran-FlowChart.jpg);
+
+My program was limited to two joints. This severely limited its movement range but simplified the gripper kinematics.
+
+One joint:
+![One Joint Movement](img/OneJointMovement.jpeg)
+![One Joint Movement Gif](img/OneJointMovement.gif)
+
+Two joint:
+![Two Joint Movement](img/TwoJointMovement.jpeg)
+![Two Joint Movement Gif](img/TwoJointMovement.gif)
+
+
+
