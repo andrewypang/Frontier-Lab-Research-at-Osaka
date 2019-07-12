@@ -31,9 +31,7 @@ I built a fun program that demonstrates the new features made possible thanks to
 
 ![Karaage in Cup](img/AndrewPang-FrontierSummerLab2018-IMU-Karaage-in-Cup-Demo.mov)
 
-
 ![Pouring a Drink](img/AndrewPang-FrontierSummerLab2018-IMU-Drink-Demo.mov)
-
 
 ![XYZ Axis Demo](img/AndrewPang-FrontierSummerLab2018-IMU-XYZ-Axis-Demo.mov)
 
@@ -41,22 +39,25 @@ How XYZ Axis is defined:
 
 ![XYZ Axis Def](img/AndrewPang-FrontierSummerLab2018-OpenCR-IMU.jpg)
 
-
 ### Here are some technical stuff about the program:
 
 The Flow Chart:
+
 ![Flow Chart](img/IMU-Progran-FlowChart.jpg)
 
 I limited my program to two joints to simplify the gripper kinematics but it severely restricted its movement range. Expanding it beyond two joints can be a future addition.
 
 One joint:
+
 ![One Joint Movement](img/OneJointMovement.jpeg)
 ![One Joint Movement Gif](img/OneJointMovement.gif)
 
 Two joint:
+
 ![Two Joint Movement](img/TwoJointMovement.jpeg)
 ![Two Joint Movement Gif](img/TwoJointMovement.gif)
 
 Here is the full process from start to end:
+
 ![Full Process](img/AndrewPang-FrontierSummerLab2018-Full-Process-480p.mov)
 
