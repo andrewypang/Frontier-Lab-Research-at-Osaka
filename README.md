@@ -31,14 +31,14 @@ OpenCR also comes with many built-in features like IMU, buttons, and LEDs.
 I built a fun program that demonstrates the new features made possible thanks to the OpenCR. The IMU allowed me to control the arm, the buttons allowed me to open/close the gripper, and the on-board LEDs displayed important notifications.
 
 <!-- ![Karaage in Cup](https://youtu.be/N_jZu9cy7EY) -->
-<a href="https://youtu.be/N_jZu9cy7EY" target="_blank">
-    <img src="http://img.youtube.com/vi/N_jZu9cy7EY/0.jpg" alt="Karaage in Cup" width="240" height="180" border="10"/>
-</a>
 
+[Karaage in Cup](https://youtu.be/N_jZu9cy7EY)
 
-![Pouring a Drink](img/AndrewPang-FrontierSummerLab2018-IMU-Drink-Demo.mov)
+[Pouring a Drink](https://youtu.be/JTcfXIpT0VU)
+<!-- ![Pouring a Drink](img/AndrewPang-FrontierSummerLab2018-IMU-Drink-Demo.mov) -->
 
-![XYZ Axis Demo](img/AndrewPang-FrontierSummerLab2018-IMU-XYZ-Axis-Demo.mov)
+<!-- ![XYZ Axis Demo](img/AndrewPang-FrontierSummerLab2018-IMU-XYZ-Axis-Demo.mov) -->
+[XYZ Axis Demo](https://youtu.be/GwmOkOydiBY)
 
 How XYZ Axis is defined:
 
